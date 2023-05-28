@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A161280EAA17F485CF8CCCB4 /* Pods_FlashChat_15.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CA16EFBCBAD3B98B999C68 /* Pods_FlashChat_15.framework */; };
 		E4BF572C2A1E1F5C00762F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF572B2A1E1F5C00762F22 /* AppDelegate.swift */; };
 		E4BF572E2A1E1F5C00762F22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF572D2A1E1F5C00762F22 /* SceneDelegate.swift */; };
-		E4BF57302A1E1F5C00762F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF572F2A1E1F5C00762F22 /* ViewController.swift */; };
 		E4BF57332A1E1F5C00762F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BF57312A1E1F5C00762F22 /* Main.storyboard */; };
 		E4BF57352A1E1F5D00762F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BF57342A1E1F5D00762F22 /* Assets.xcassets */; };
 		E4BF57382A1E1F5D00762F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BF57362A1E1F5D00762F22 /* LaunchScreen.storyboard */; };
+		E4BF574A2A1E206A00762F22 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF57492A1E206A00762F22 /* WelcomeViewController.swift */; };
+		E4BF574C2A1E209100762F22 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF574B2A1E209100762F22 /* RegisterViewController.swift */; };
+		E4BF574E2A1E20A700762F22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF574D2A1E20A700762F22 /* LoginViewController.swift */; };
+		E4BF57502A1E20B100762F22 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF574F2A1E20B100762F22 /* ChatViewController.swift */; };
+		E4BF57542A20B7E400762F22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4BF57532A20B7E400762F22 /* GoogleService-Info.plist */; };
+		E4BF57572A20B90800762F22 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E4BF57562A20B90800762F22 /* FirebaseAuth */; };
+		E4BF57592A20B90800762F22 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E4BF57582A20B90800762F22 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21CA16EFBCBAD3B98B999C68 /* Pods_FlashChat_15.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashChat_15.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F222D63012A1C5CECD423C /* Pods-FlashChat_15.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashChat_15.debug.xcconfig"; path = "Target Support Files/Pods-FlashChat_15/Pods-FlashChat_15.debug.xcconfig"; sourceTree = "<group>"; };
 		E4BF57282A1E1F5C00762F22 /* FlashChat_15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashChat_15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BF572B2A1E1F5C00762F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4BF572D2A1E1F5C00762F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4BF572F2A1E1F5C00762F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4BF57322A1E1F5C00762F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4BF57342A1E1F5D00762F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4BF57372A1E1F5D00762F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4BF57392A1E1F5D00762F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4BF57492A1E206A00762F22 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E4BF574B2A1E209100762F22 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E4BF574D2A1E20A700762F22 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E4BF574F2A1E20B100762F22 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E4BF57532A20B7E400762F22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9DD3E0552E7BC3E0AEC57ED /* Pods-FlashChat_15.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashChat_15.release.xcconfig"; path = "Target Support Files/Pods-FlashChat_15/Pods-FlashChat_15.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A161280EAA17F485CF8CCCB4 /* Pods_FlashChat_15.framework in Frameworks */,
+				E4BF57572A20B90800762F22 /* FirebaseAuth in Frameworks */,
+				E4BF57592A20B90800762F22 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F5059DA1F7A0678C9524D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21CA16EFBCBAD3B98B999C68 /* Pods_FlashChat_15.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		927E3DA4175E70DF6A1BCBCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28F222D63012A1C5CECD423C /* Pods-FlashChat_15.debug.xcconfig */,
+				F9DD3E0552E7BC3E0AEC57ED /* Pods-FlashChat_15.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4BF571F2A1E1F5C00762F22 = {
 			isa = PBXGroup;
 			children = (
 				E4BF572A2A1E1F5C00762F22 /* FlashChat_15 */,
 				E4BF57292A1E1F5C00762F22 /* Products */,
+				927E3DA4175E70DF6A1BCBCD /* Pods */,
+				8F5059DA1F7A0678C9524D1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,43 @@
 		E4BF572A2A1E1F5C00762F22 /* FlashChat_15 */ = {
 			isa = PBXGroup;
 			children = (
+				E4BF57522A1E252D00762F22 /* Models */,
+				E4BF57512A1E252000762F22 /* View */,
+				E4BF57482A1E204B00762F22 /* Controllers */,
 				E4BF572B2A1E1F5C00762F22 /* AppDelegate.swift */,
 				E4BF572D2A1E1F5C00762F22 /* SceneDelegate.swift */,
-				E4BF572F2A1E1F5C00762F22 /* ViewController.swift */,
-				E4BF57312A1E1F5C00762F22 /* Main.storyboard */,
 				E4BF57342A1E1F5D00762F22 /* Assets.xcassets */,
 				E4BF57362A1E1F5D00762F22 /* LaunchScreen.storyboard */,
 				E4BF57392A1E1F5D00762F22 /* Info.plist */,
+				E4BF57532A20B7E400762F22 /* GoogleService-Info.plist */,
 			);
 			path = FlashChat_15;
+			sourceTree = "<group>";
+		};
+		E4BF57482A1E204B00762F22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4BF57492A1E206A00762F22 /* WelcomeViewController.swift */,
+				E4BF574B2A1E209100762F22 /* RegisterViewController.swift */,
+				E4BF574D2A1E20A700762F22 /* LoginViewController.swift */,
+				E4BF574F2A1E20B100762F22 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4BF57512A1E252000762F22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4BF57312A1E1F5C00762F22 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4BF57522A1E252D00762F22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +138,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4BF573C2A1E1F5D00762F22 /* Build configuration list for PBXNativeTarget "FlashChat_15" */;
 			buildPhases = (
+				92ED28F4213300749BEEABD5 /* [CP] Check Pods Manifest.lock */,
 				E4BF57242A1E1F5C00762F22 /* Sources */,
 				E4BF57252A1E1F5C00762F22 /* Frameworks */,
 				E4BF57262A1E1F5C00762F22 /* Resources */,
+				587EB97D9724BB90F2631C7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FlashChat_15;
+			packageProductDependencies = (
+				E4BF57562A20B90800762F22 /* FirebaseAuth */,
+				E4BF57582A20B90800762F22 /* FirebaseFirestore */,
+			);
 			productName = FlashChat_15;
 			productReference = E4BF57282A1E1F5C00762F22 /* FlashChat_15.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,9 @@
 				Base,
 			);
 			mainGroup = E4BF571F2A1E1F5C00762F22;
+			packageReferences = (
+				E4BF57552A20B90800762F22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E4BF57292A1E1F5C00762F22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4BF57382A1E1F5D00762F22 /* LaunchScreen.storyboard in Resources */,
+				E4BF57542A20B7E400762F22 /* GoogleService-Info.plist in Resources */,
 				E4BF57352A1E1F5D00762F22 /* Assets.xcassets in Resources */,
 				E4BF57332A1E1F5C00762F22 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +207,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		587EB97D9724BB90F2631C7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlashChat_15/Pods-FlashChat_15-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlashChat_15/Pods-FlashChat_15-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlashChat_15/Pods-FlashChat_15-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92ED28F4213300749BEEABD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlashChat_15-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4BF57242A1E1F5C00762F22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BF57302A1E1F5C00762F22 /* ViewController.swift in Sources */,
+				E4BF574A2A1E206A00762F22 /* WelcomeViewController.swift in Sources */,
 				E4BF572C2A1E1F5C00762F22 /* AppDelegate.swift in Sources */,
 				E4BF572E2A1E1F5C00762F22 /* SceneDelegate.swift in Sources */,
+				E4BF574E2A1E20A700762F22 /* LoginViewController.swift in Sources */,
+				E4BF57502A1E20B100762F22 /* ChatViewController.swift in Sources */,
+				E4BF574C2A1E209100762F22 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +401,7 @@
 		};
 		E4BF573D2A1E1F5D00762F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F222D63012A1C5CECD423C /* Pods-FlashChat_15.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +415,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +423,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "LarisaTeregulova.FlashChat-15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E4BF573E2A1E1F5D00762F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DD3E0552E7BC3E0AEC57ED /* Pods-FlashChat_15.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +448,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +456,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "LarisaTeregulova.FlashChat-15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +487,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4BF57552A20B90800762F22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4BF57562A20B90800762F22 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4BF57552A20B90800762F22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E4BF57582A20B90800762F22 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4BF57552A20B90800762F22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4BF57202A1E1F5C00762F22 /* Project object */;
 }
